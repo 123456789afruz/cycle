@@ -1,0 +1,19 @@
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    a {
+        font-family: fantasy;
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+
+        &:last-child {
+            background-color: blue;
+            color: azure;
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+    }
+}
